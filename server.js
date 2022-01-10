@@ -1,14 +1,14 @@
-const http = require('http');
-const PORT = 8080;
+const express = require('express')
+const PORT = process.env.PORT || 8080;
 
-const handleRequest = (req, res) => {
-    res.end(`It works!`)
-}
+const app = express()
+
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+
+require('./routes/htmlRoutes')(app);
 
 
-const server = http.createServer(handleRequest);
-
-
-server.listen(PORT, () => {
-    console.log(`Listening on ${PORT}`)
-})
+app.listen(PORT, () => {
+    console.log(`App listening on PORT: ${PORT}`);
+  });
