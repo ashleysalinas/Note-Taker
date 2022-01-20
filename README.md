@@ -28,5 +28,8 @@ This project was created for Week 11 - Express of the Trilogy/Southern Methodist
  ## Usage
  Use this app to write notes and delete them at your convenience.
  
+ ## Contributing
+ Thanks to the team at Trilogy Education Services for providing the front end files! This project is designed to showcase students' back end skills, which is what I contributed.
+ 
  ## License
  Distributed under the MIT Licencse.
