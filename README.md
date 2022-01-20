@@ -1,6 +1,6 @@
 # Note-Taker
 
-![](nT.gif)
+![](note-taker.gif)
 
 Week 11 - Express assignment for the Trilogy/Southern Methodist University Web Development Bootcamp
 
